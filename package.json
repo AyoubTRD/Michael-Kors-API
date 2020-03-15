@@ -1,0 +1,20 @@
+{
+  "name": "michael-kors-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "dev": "nodemon ."
+  },
+  "author": "Ayoub Taouarda",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
